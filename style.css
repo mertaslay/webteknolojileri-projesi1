@@ -1,0 +1,193 @@
+body{
+    font-family: 'Lato',sans-serif;
+    height:100%;
+    font-size:15px;
+
+}
+html{
+    height:100%;
+}
+   
+a{
+    color: midnightblue;
+    text-decoration:none;
+}
+section{
+   
+    display: flex;
+    align-items: center;
+    -ms-flex-align:center;
+    justify-content: center;
+    height:100%;
+}
+.home{
+    width:82%;
+    height:500px;
+    background: #ffffff;
+}
+.photo{
+    position: relative;
+    background: url(resimler/mert2.jpeg);
+    background-size:cover;
+    
+    width: 500px;
+    height:500px;
+    float:left;
+}
+.decs{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color:#ffffff;
+    background:-moz-linear-gradient(top,rgba(125,185,232,0)
+    0%,rgba(0,0,0,1) 100%);
+
+    background:-webkit-linear-gradient(top,rgba(125,185,232,0)
+    0%,rgba(0,0,0,1)100%);
+
+    background:linear-gradient(to bottom,rgba(125,185,232,0)
+    0%,rgba(0,0,0,1)100%);
+}
+.cdesc{
+    padding-right:400px;
+    font-weight: 700;
+    color:darkblue;
+}
+.content{
+    width:calc(100%-300px);
+    position:relative;
+    float:left;
+}
+.menu{
+    color:#f6f6f6;
+}
+ul{
+    margin:0;
+    padding:0;
+    font-weight:600;
+}
+ul>li{
+    display:inline-block;
+    line-height:2.5;
+    padding:3px 15px;
+    text-transform: uppercase;
+}
+li:hover{
+    background:#03a9f4;
+}
+li:hover>a{
+    color:#ffffff
+}
+.text{
+    columns: #757575;
+    font-style: italic;
+    display: inline-block;
+}
+.cpadding{
+    padding:10px
+}
+.signature{
+    background:url(resimler/mert3.jpeg);
+    position:relative;
+    margin: 0px 150px -5px auto;
+    width: 400px;
+    height: 360px;
+    background-size: cover;
+}
+.box{
+    background: #f6f6f6;
+    border-radius:4px;
+    border-left:5px solid;
+    padding:5px;
+}
+.container{
+    background:url(resimler/mert1.jpeg);
+    width:100%;
+    height:1200px;
+    float: left;
+    background-color:bisque;
+}
+.header{
+    font-weight: 800;
+}
+.yazi{
+    width:318px;
+    font-size:20px;
+    margin-bottom:10px;
+    float: left;
+    vertical-align: top;
+    background-color: white;
+    border-style: solid;
+    border-color:blue;
+    
+}
+.foto{
+    float: right ;
+    margin-top: 0;
+    font-weight: 400;
+     background-color: white;
+     border-style: solid;
+     border-color:blue;
+
+}
+.foto1{
+    
+    background:  url(resimler/futbol.jpg);
+    width:300px;
+    height:200px;
+    
+}
+.foto2{
+    background: url(resimler/müzik.jpg);
+    width:300px;
+    height:150px;
+    background-size:contain;
+   
+}
+.foto3{
+   background: url(resimler/yüzme.jpg);
+   width:300px;
+   height:200px;
+   background-size: contain;
+   
+}
+.i-container{
+    background-color:blanchedalmond;
+    
+
+}
+.i-sag{width:700px;
+      font-size: 18px;
+      margin-top:10px;
+      
+}
+.i-baslik{
+    width:1500px;
+    font-size:20px;
+    margin-top:15px;
+}
+.ad{
+    width:300px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:3px;
+}
+.iletisim{
+    margin-top:10px;
+}
+.mesaj{
+    width:400px;
+    height:200px;
+}
+.buton{
+
+    width:100px;
+    height:50px;
+    border-radius:3px;
+}
+.sosyal img{
+width:50px;
+height:50px;
+}
+
+
