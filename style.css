@@ -118,7 +118,7 @@ li:hover>a{
     vertical-align: top;
     background-color: white;
     border-style: solid;
-    border-color:blue;
+    border-color:#ffffff;
     
 }
 .foto{
@@ -127,7 +127,7 @@ li:hover>a{
     font-weight: 400;
      background-color: white;
      border-style: solid;
-     border-color:blue;
+     border-color:#ffffff;
 
 }
 .foto1{
@@ -152,7 +152,7 @@ li:hover>a{
    
 }
 .i-container{
-    background-color:blanchedalmond;
+    background-color:rgb(205, 249, 255);
     
 
 }
@@ -165,6 +165,7 @@ li:hover>a{
     width:1500px;
     font-size:20px;
     margin-top:15px;
+    font-weight: bolder;
 }
 .ad{
     width:300px;
@@ -189,5 +190,520 @@ li:hover>a{
 width:50px;
 height:50px;
 }
+.sablon{
+    width:740px;
+    height:auto;
+    margin:30px auto;
+}
+.logo{
+    width:100px;
+    height:100px;
+    float:left;
+    background:url(resimler/mert3.jpeg) no-repeat;
+    background-size:100px;
+    
+}
+.banner{
+    width:630px;
+    height:60px;
+    float: left;
+    margin:0 0 0 10px;
+    background:#003466;
+    border-radius: 10px;
+    color: #ffffff;
+    font:bold 15px tahoma;
+    text-align: center;
+    padding:40px 0 0 0;
+
+}
+.ö-menu{
+    width:1500px;
+    height:47px;
+    margin:10px 0 0 0 ;
+    background-color: #00468c;
+}
+.orta1{
+    width: 740px;
+    height:350px;
+    float:left;
+    margin:10px 0 10px 0;
+    background-color:#016dd9;
+    color: #ffffff;
+}
+.orta2{
+    width:365px;
+    height:240px;
+    float:left;
+    background:#4da6ff;
+    color:black;
+}
+.orta3{
+    width:365px;
+    height:240px;
+    float: left;
+    margin:0 0 0 10px;
+    background:#99cdff;
+    color:black;
+}
+
+.alt{
+    width:740px;
+    height:90px;
+    float: left;
+    margin:10px 0 0 0;
+    background:#bfeefe;
+    border-radius:10px;
+}
+.ö-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.ö-menu ul li{
+    float:left;
+    
+}
+.ö-menu ul li a{
+    display:block;
+    width:145px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:#ffffff;
+    padding:15px 0 0 0;
+}
+.ö-menu ul li a:hover{
+    text-decoration:underline;
+    background: #06f;
+}
+.m-menu{
+    width:1500px;
+    height:47px;
+    margin:10px 0 0 0 ;
+    background-color: rgb(41, 128, 0);
+}
+.m-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.m-menu ul li{
+    float:left;
+    
+}
+.m-menu ul li a{
+    display:block;
+    width:145px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:#ffffff;
+    padding:15px 0 0 0;
+}
+.m-logo img{
+    margin-top: 0px;
+    width:680px;
+    height:400px;
+}
+.m-yazi{
+float: right;
+width:800px;
+}
+.ş-menu{
+    top:0px;
+    width:1520px;
+    height:47px;
+    margin:0 0  0 ;
+    background-color: rgba(250, 81, 63,200);
+}
+.ş-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.ş-menu ul li{
+    float:left;
+    
+}
+.ş-menu ul li a{
+    display:block;
+    width:180px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:black;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+.prosesbar{
+    width:0px;
+    height:5px;
+    background:orange;
+    top: 0px;
+    left:0px;
+    z-index: 99px;
+}
+.slideralan{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+    
+    overflow: hidden;
+}
+.kapla{
+    width:100%;
+    height:50%;
+    position: relative;
+    
+}
+.ilerleyen{
+    height:100%;
+    min-width:50%;
+   position: absolute;
+    top: 0px;
+    left:0px;
+}
+.donen{
+    width:100%;
+    height:100%;
+    float:left;
+}
+.donen img{
+    width:100%;
+    height:50%;
+}
+a.ileri{
+    text-decoration:none;
+    position: absolute;
+    top:50%;
+    height:50px;
+    margin-top:-200px;
+    background:rgb(255, 102, 0);
+    color: #ffffff;
+    font-weight: bold;
+    right:0px;
+    z-index:99;
+    line-height:50px;
+    padding:0px 20px;
+    display: block;
+    border-radius:100%;
+}
+a.geri{
+    text-decoration: none;
+    position: absolute;
+    top:50%;
+    height:50px;
+    margin-top:-200px;
+    background:rgb(255, 102, 0);
+    color: #ffffff;
+    font-weight: bold;
+    left:0px;
+    z-index:99;
+    line-height:50px;
+    padding:0px 20px;
+    display: block;
+    border-radius:100px;
+}
+.ş-baslık{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+
+}
+.ş-yazi{
+ 
+ margin-top:-350px;
+ width:100%;
+ font-size:medium;
+ font-weight: 600;
+ font-style: italic;
+ 
+}
+.ş-yazi h2{ 
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+ .ş-yazi h3{
+     font-style: normal;
+     color: rgb(184, 80, 11);
+ }
+ .ş-yazi h1{
+     font-style: normal;
+     
+ }
+ .ek-menu{
+    top:0px;
+    width:100%;
+    height:47px;
+    margin:0 0  0 ;
+    background-color: rgba(250, 81, 63,200);
+}
+.ek-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.ek-menu ul li{
+    float:left;
+    
+}
+.ek-menu ul li a{
+    display:block;
+    width:180px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:black;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+ .ek-baslik{
+     text-align: center;
+     font-size: 40px;
+     margin-top:-30px;
+     
+ }
+ .ek-yazi{
+     text-align: center;
+     font-size: 30px;
+ }
+ .ek-foto{
+     text-align: center;
+     margin-top:-40px;    
+ }
+ .ek-foto img{
+     height:400px;
+ }
+ .ke-menu{
+    top:0px;
+    width:100%;
+    height:47px;
+    margin:0 0  0 ;
+    background-color: rgba(250, 81, 63,200);
+}
+.ke-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.ke-menu ul li{
+    float:left;
+    
+}
+.ke-menu ul li a{
+    display:block;
+    width:180px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:black;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+ .ke-baslik{
+     text-align: center;
+     font-size: 40px;
+     
+ }
+ .ke-yazi{
+     text-align: center;
+     font-size: 30px;
+ }
+ .ke-foto{
+     text-align: center;
+     margin-top:-40px;
+     
+ }
+ .gi-menu{
+    top:0px;
+    width:100%;
+    height:47px;
+    margin:0 0  0 ;
+    background-color: rgba(250, 81, 63,200);
+}
+.gi-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.gi-menu ul li{
+    float:left;
+    
+}
+.gi-menu ul li a{
+    display:block;
+    width:180px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:black;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+ .gi-baslik{
+     text-align: center;
+     font-size: 40px;
+     
+ }
+ .gi-yazi{
+     text-align: center;
+     font-size: 30px;
+ }
+ .gi-foto{
+     text-align: center;
+     margin-top:-40px;
+ }
+ .er-menu{
+    top:0px;
+    width:100%;
+    height:47px;
+    margin:0 0  0 ;
+    background-color: rgba(250, 81, 63,200);
+}
+.er-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.er-menu ul li{
+    float:left;
+    
+}
+.er-menu ul li a{
+    display:block;
+    width:180px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:black;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+ .er-baslik{
+     text-align: center;
+     font-size: 40px;
+     
+ }
+ .er-yazi{
+     text-align: center;
+     font-size: 30px;
+ }
+ .er-foto{
+     text-align: center;
+     margin-top:-40px;
+ }
+ input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  l-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  l-button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  
+  img.avatar {
+    width: 15%;
+    border-radius: 50%;
+  }
+  
+  
+  .l-container {
+    padding: 16px;
+    
+  }
+  
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+      font-size: 100%;
+    }
+  }
+  .l-menu{
+    top:0px;
+    width:1520px;
+    height:47px;
+    margin:0 0  0 ;
+    background-color: rgba(250, 181, 63,200);
+}
+.l-menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+.l-menu ul li{
+    float:left;
+    
+}
+.l-menu ul li a{
+    display:block;
+    width:180px;
+    height:32px;
+    text-decoration: none;
+    text-align: center;
+    font:13px tahoma;
+    color:black;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+.l-container{
+    background-color: rgb(255, 153, 0);
+}
+.s-btn {
+ background-color: tomato;
+ font-size: medium;
+}
+
+    
 
 
